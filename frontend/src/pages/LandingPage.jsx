@@ -476,7 +476,9 @@ const LandingPage = () => {
             const numReviews = listing.reviews ? listing.reviews.length : 0;
             const metadata = listing.metadata || {};
             const propertyType = metadata.propertyType || 'Property';
-            const numBeds = metadata.beds || 0;
+            const numBeds = Array.isArray(metadata.bedrooms)
+              ? metadata.bedrooms.reduce((sum, room) => sum + (room.beds || 0), 0)
+              : 0;
             const numBathrooms = metadata.bathrooms || 0;
 
             return (

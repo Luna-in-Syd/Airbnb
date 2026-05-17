@@ -3,3 +3,6 @@ database.json
 .DS_Store
 .idea
 frontend/dist
+**/_*
+**/._*
+._*

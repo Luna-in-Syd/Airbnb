@@ -6,9 +6,13 @@ A full-stack Airbnb-style property rental platform built with React 18 and Expre
 
 ---
 
+
 ## Screenshots
 
-> _Add screenshots here — Landing page, Listing detail, Host dashboard, Account page_
+![Landing Page](docs/screenshots/landing.png)
+![Listing Detail](docs/screenshots/detail.png)
+![Host Dashboard](docs/screenshots/host.png)
+![Create Listing](docs/screenshots/create.png)
 
 ---
 

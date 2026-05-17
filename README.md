@@ -2,7 +2,7 @@
 
 A full-stack Airbnb-style property rental platform built with React 18 and Express.js. Users can switch between host and guest roles — hosts manage listings and bookings, guests search, book, and review properties.
 
-> **Live Demo**: _coming soon_
+
 
 ---
 
